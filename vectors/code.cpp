@@ -9,6 +9,8 @@ cout<< "first = " <<vec.front() <<endl;
 cout<< "last =" << vec.back() << endl;
 cout<< "at 2 = "<< vec.at(3) << endl;
 cout<< "empty =" << vec.empty()<< endl;
+vec.push_back('g');
+vec.pop_back( );
     for(char val : vec){
         cout<< val << endl;
 
